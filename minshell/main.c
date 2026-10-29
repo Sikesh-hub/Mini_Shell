@@ -157,7 +157,7 @@ void execute_internal_command(char **arg)
         }
         else if(strcmp(arg[1],"$?")==0)
         {
-            //printf(" ");
+            printf("0 is running");
         }
         else
         {
