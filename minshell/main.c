@@ -141,6 +141,7 @@ void execute_internal_command(char **arg)
         }
 
     }
+    //hi
     else if(strcmp(arg[0],"exit")==0)
     {
         exit(0);
