@@ -128,7 +128,7 @@ void execute_internal_command(char **arg)
         }
         else
         {
-            perror("c");
+            perror("cd");
         }
     }
     else if(strcmp(arg[0],"pwd")==0)
